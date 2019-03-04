@@ -5,6 +5,9 @@
     <outer/>
 	<outer/>
 	<outer/>
+	<outer/>
+	<outer/>
+	<outer/>
   </div>
 </template>
 
