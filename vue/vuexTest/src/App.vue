@@ -3,10 +3,7 @@
     <img src="./assets/logo.png">
     <parent/>
     <outer/>
-	<outer/>
-	<outer/>
-	
-  </div>
+</div>
 </template>
 
 <script>
