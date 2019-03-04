@@ -3,6 +3,8 @@
     <img src="./assets/logo.png">
     <parent/>
     <outer/>
+	<outer/>
+	<outer/>
   </div>
 </template>
 
