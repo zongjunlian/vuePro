@@ -14,14 +14,27 @@
 				<li>注册</li>
 				<li>|</li>
 				<li>关于</li>
+				<li>|</li>
+				<li>{{test}}</li>
 			</ul>
 		</div>
 	</div>
 </template>
 
 <script>
+	import bus from '../assets/js/eventBus.js'
     export default {
-        name: "myHeader"
+        name: "myHeader",
+		data() {
+			return {
+				test: ''
+			}
+		},
+		created(){
+			bus.$on("key",(data)=>{
+				this.test= data; 
+			})
+		}
     }
 </script>
 
