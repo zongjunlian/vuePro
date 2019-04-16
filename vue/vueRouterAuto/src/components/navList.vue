@@ -4,7 +4,7 @@
         <li><router-link to="/" exact>首页</router-link></li>
         <li><router-link to="/course">课程</router-link></li>
         <li><router-link :to="{ name: 'master', params: { count: 123,type:obj }}">专家</router-link></li>
-
+<!-- <li><router-link :to="{ path: '/master', query: { count: 123,type:obj }}">专家</router-link></li> -->
       </ul>
     </div>
 </template>

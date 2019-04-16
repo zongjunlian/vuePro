@@ -35,7 +35,8 @@ export default new Router({
       ]
     },
     {
-      path: '/master/:count/:type',
+      path: '/master',
+			 // path: '/master/:count/:type',
       name: 'master',
       component: master
     }
